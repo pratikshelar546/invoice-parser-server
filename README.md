@@ -86,8 +86,7 @@ An Express.js API that allows you to upload, parse, and store invoice data (from
 - **File Limit:** Maximum upload size is 10MB.
 - **Format:** Best results with clear, standard, English-language invoices. Scanned images or irregular layouts may reduce accuracy.
 - **OpenAI Reliance:** Quality of extraction depends on LLM accuracy and may vary as OpenAI changes.
-- **Authentication:** Minimal auth included; for production, implement robust authentication.
-- **Rate Limiting:** Basic, not suited for high-security or public APIs.
+- **Rate Limiting:** Basic, not suited for high-security or public APIs in 1 minute only can access for 5 times.
 
 ---
 
