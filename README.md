@@ -87,6 +87,7 @@ An Express.js API that allows you to upload, parse, and store invoice data (from
 - **Format:** Best results with clear, standard, English-language invoices. Scanned images or irregular layouts may reduce accuracy.
 - **OpenAI Reliance:** Quality of extraction depends on LLM accuracy and may vary as OpenAI changes.
 - **Rate Limiting:** Basic, not suited for high-security or public APIs in 1 minute only can access for 5 times.
+- **read:** not able to read big pdf because of token limitiation
 
 ---
 
