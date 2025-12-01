@@ -91,9 +91,4 @@ An Express.js API that allows you to upload, parse, and store invoice data (from
 
 ---
 
-## Assumptions
-
-- PDF, PNG, and JPG file uploads are supported (not just PDF).
-- Invoices are retained in the database until manually deleted.
-- Default server port is `5001`.
 
